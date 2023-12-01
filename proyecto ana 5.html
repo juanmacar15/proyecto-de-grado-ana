@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mi página web</title>
+    <!-- CSS (Efectos visuales) -->
+    <style>
+        body {
+            background-color: skyblue;
+        }
+
+        .container {
+            width: 800px;
+            margin: 0 auto;
+            padding-top: 50px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 20px;
+            text-align: left;
+            display: inline-block;
+            width: 50%;
+            vertical-align: top;
+        }
+
+        img {
+            width: 550px;
+            height: 500px;
+        }
+
+        .img_lateral {
+
+            width: 150px;
+            height: 120px;
+
+
+        }
+
+        input[type="text"] {
+            margin-top: 20px;
+            width: 70%;
+            height: 30px;
+            margin: 30px;
+            border: none;
+            border-bottom: 2px solid black;
+            font-size: 16px;
+            background-color: aqua;
+        }
+
+        h1 {
+            margin-top: 0;
+            color: rgb(167, 23, 167);
+            font-size: 30px;
+            font-family: 50px;
+        }
+
+        p {
+            margin-top: 0;
+            color: rgb(167, 23, 167);
+            font-size: 60px;
+            text-align: center;
+
+        }
+
+        .a {
+            background-color: rgb(31, 150, 248);
+            padding: 15px 25px;
+            text-decoration: none;
+            outline: none;
+            color: rgb(252, 250, 251);
+            font-weight: 500;
+            border-color: rgb(245, 59, 167);
+            cursor: pointer;
+            margin: 4px;
+            border-radius: 25px;
+            transition: width 0.5s;
+        }
+
+        .B {
+            background-color: rgb(167, 23, 167);
+            padding: 15px 25px;
+            text-decoration: none;
+            outline: none;
+            color: rgb(252, 250, 251);
+            font-weight: 500;
+            border-color: rgb(245, 59, 167);
+            cursor: pointer;
+            margin: -20px 10px;
+
+            border-radius: 25px;
+            transition: width 0.5s;
+        }
+    </style>
+</head>
+<!-- HTML (Estructura) -->
+
+<body>      
+    <div class="container"> <!-- contenedor padre de los demas elementos -->
+        <img src="pycana/pyec/caras.png" alt="Imagen" />
+        <h1>INGRESA LA RESPUESTA CORRECTA</h1>
+        <p>
+            9x7=
+        </p>
+        <img class="img_lateral" src="pycana/pyec/numeros.png" alt="Imagen Lateral" />
+        <br>
+        <input type="text" placeholder="Escribe aquí..."> <!-- input para ingresar la respuesta -->
+        <input class="a" type="submit">
+        <div>
+            <a class="a" href="proyecto ana 4.html">ATRAS</a> <!-- boton para retroceder a la pagina anterior -->
+            <a class="B" href="proyecto ana 6.html">SIGUIENTE</a> <!--boton para avanzar a la siguiente pagina -->
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

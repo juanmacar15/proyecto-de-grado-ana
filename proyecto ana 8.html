@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mi página web</title>
+<!-- CSS (Efectos visuales) -->
+    <style>
+        body {
+            background-color: lightblue;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container img {
+            width: 100%;
+            max-width: 900px;
+            border: none;
+        }
+
+        .botones {
+            display: flex;
+            margin-top: 20px;
+            justify-content: center;
+            /* Centrar los botones */
+
+        }
+
+        .boton {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 14px;
+            /* 4 píxeles de diferencia */
+
+        }
+
+        .centrado {
+            margin: 0;
+            /* Eliminar el margen para centrar el botón */
+        }
+
+        .boton img {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 10px;
+            border-radius: 25px;
+            transition: width 0.5s;
+        }
+
+        .espacio-imagen {
+            height: 10px;
+            /* Ajustar el espacio entre el botón y la imagen */
+        }
+
+        .botron {
+            background-color: #0b8cd6;
+            padding: 15px 25px;
+            text-decoration: none;
+            outline: none;
+            color: rgb(252, 250, 251);
+            font-weight: 500;
+            border-color: aqua;
+            cursor: pointer;
+
+            border-radius: 25px;
+            transition: width 0.5s;
+        }
+
+        .texto {
+
+            color: rgb(12, 1, 12);
+            font-size: 30px;
+            margin: 55px;
+        }
+
+        .botronatras {
+            background-color: #51f5da;
+            padding: 15px 25px;
+            text-decoration: none;
+            outline: none;
+            color: rgb(252, 250, 251);
+            font-weight: 500;
+            border-color: rgb(245, 59, 167);
+            cursor: pointer;
+            margin: 4px;
+            border-radius: 25px;
+            transition: width 0.5s;
+        }
+
+        .botrom {
+            background-color: rgb(245, 59, 167);
+            padding: 15px 25px;
+            text-decoration: none;
+            outline: none;
+            color: rgb(252, 250, 251);
+            font-weight: 500;
+            cursor: pointer;
+            margin: 4px;
+            border-radius: 25px;
+        }
+    </style>
+</head>
+
+<!-- HTML (Estructura) -->
+<body>
+    <div class="container"><!-- contenedor padre de los demas elementos -->
+        <img src="pycana/pyec/mariposa-removebg-preview.png" alt="Imagen">
+        <div class="botones">
+            <div class="boton">
+                <img src="pycana/pyec/drilococo.jpeg" alt="Boton 1">
+                <a class="botron" href="https://youtube.com/watch?v=ToQJ1E7N2bk&feature=shared" target="_blank">Video 1</a><!-- boton para redirigir al video 1-->
+                <div class="espacio-imagen"></div>
+            </div>
+            <div class="boton">
+                <img src="pycana/pyec/cida.jpeg" alt="Boton 2">
+                <a class="botron" href="https://youtube.com/watch?v=masuuicILi4&feature=shared" target="_blank">Video 2</a><!-- boton para redirigir al video 2-->
+                <div class="espacio-imagen"></div>
+            </div>
+            <div class="boton centrado">
+                <img src="pycana/pyec/galeta.jpeg" alt="Boton 3">
+                <a class="botron" href="https://youtube.com/watch?v=Tvxp3qGwkKY&feature=shared" target="_blank">Video 3</a><!-- boton para redirigir al video 3-->
+                <div class="espacio-imagen"></div>
+            </div>
+            <div class="boton">
+                <img src="pycana/pyec/phicha.jpeg" alt="Boton 4">
+                <a class="botron" href="https://youtu.be/PPrzBiXT_tQ?si=XnnjyfI1r6PzepQd" target="_blank">Video 4</a><!-- boton para redirigir al video 4-->
+
+            </div>
+
+        </div>
+        <div class="espacio-imagen"></div>
+        <div>
+            <p class="texto">Exploraran contenido de su interes como dibujos y manualidades.
+                En caso tal encuentra contenido inapropiado marcalo y lo revisaremos rapidamente.
+                Los resultados se limitaranal contenido recomendados para menores hata 8 anos.
+            </p>
+            <a href="proyecto ana 6.html" class="botronatras">ATRAS</a><!--boton para retroceder a la pagina anterior -->
+            <a href="index.html" class="botrom">HOME</a><!--boton para avanzar a la siguiente pagina -->
+        </div>
+    </div>
+</body>
+
+</html>
+

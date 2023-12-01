@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Mi página web</title>
+  <!-- CSS (Efectos visuales) -->
+  <style>
+    body {
+      background-color: lightblue;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      margin-top: 0;
+      color: rgb(167, 23, 167);
+    }
+
+    .row {
+      display: flex;
+      margin-top: 20px;
+    }
+
+    .left {
+      flex: 1;
+      margin-right: 10px;
+    }
+
+    .right {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .button {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+
+      margin-bottom: 10px;
+      border-radius: 50%;
+    }
+
+    .a {
+      background-color: #0af7d7;
+      padding: 15px 25px;
+      text-decoration: none;
+      outline: none;
+      color: rgb(252, 250, 251);
+      font-weight: 500;
+      border-color: rgb(245, 59, 167);
+      cursor: pointer;
+      margin: 4px;
+      border-radius: 25px;
+      transition: width 0.5s;
+    }
+
+    .B {
+      background-color: #9242d4;
+      padding: 15px 25px;
+      text-decoration: none;
+      outline: none;
+      color: rgb(252, 250, 251);
+      font-weight: 500;
+      border-color: rgb(245, 59, 167);
+      cursor: pointer;
+      margin: 4px;
+      border-radius: 25px;
+      transition: width 0.5s;
+    }
+  </style>
+</head>
+
+<!-- HTML (Estructura) -->
+
+<body>
+  <div class="container"><!-- contenedor padre de los demas elementos -->
+    <img src="pycana/pyec/puercospin.png" alt="Imagen">
+    <h1>PANTALLA DE OPCIONES</h1>
+    <div class="row">
+      <div class="left">
+        <img src="pycana/pyec/personas.png" alt="Imagen izquierda">
+      </div>
+      <div class="right">
+        <div class="button">
+          <a href="proyecto ana 17.html"><img src="pycana/pyec/campana-removebg-preview.png" alt="Imagen 1"></a> <!-- btn que redirige a la pantalla de alarma -->
+        </div>
+        <div class="button">
+          <a href="proyecto ana 11.html"><img src="pycana/pyec/tuercapd.png" alt="Imagen 2"></a><!-- btn que redirige a la pantalla de guia parea padres -->
+        </div>
+        <div class="button">
+          <a href="proyecto ana 12.html"><img src="pycana/pyec/puntos.png" alt="Imagen 3"></a><!-- btn que redirige a la pantalla de denunciar videos -->
+        </div>
+        <div class="button">
+          <a href="proyecto ana 13.html"><img src="pycana/pyec/negro.png" alt="Imagen 4"></a><!-- btn que redirige a la pantalla de historial de reproduccion -->
+        </div>
+        <div class="button"> 
+          <a href="proyecto ana 14.html"><img src="pycana/pyec/reloj.png" alt="Imagen 5"></a><!-- btn que redirige a la pantalla de bloquear la aplicacion -->
+        </div>
+        <div class="button">
+          <a href="proyecto ana 15.html"><img src="pycana/pyec/stadistica.png" alt="Imagen 6"></a><!-- btn que redirge a la pantalla de tiempo navegado en la pagina -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <a class="a" href="proyecto ana 6.html">ATRAS</a><!--boton para retroceder a la pagina anterior -->
+  <a class="B" href="proyecto ana 18.html"> SIGUIENTE</a><!--boton para avanzar a la pagina de bloqueo del contenido --> 
+</body>
+
+</html>
